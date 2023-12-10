@@ -84,6 +84,9 @@ const App = () => {
                 ))}
                 </List>
             </div>
+            <div className="title">
+                <p>Friend List/Saved Messages</p><br />
+            </div>
             <div className="fixed-container">
                 <Button onClick={addItem}>Add</Button>
                 <Button onClick={removeItem}>Remove</Button>
